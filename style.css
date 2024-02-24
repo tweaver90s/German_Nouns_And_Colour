@@ -1,0 +1,223 @@
+/* TEXT STYLES */
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+  font-weight: 700;
+  padding: 0px;
+}
+
+p {
+  font-weight: 350;
+}
+
+.line-wrap {
+  line-height: 25%;
+}
+
+/* DIV STYLES*/
+
+.header {
+  width: 30%;
+  margin-left: auto; 
+  margin-right: auto;
+  text-align: center;
+}
+
+.content {
+  width: 700px;
+  height: 750px;
+  margin-left: auto; 
+  margin-right: auto; 
+  text-align: center;
+  border-style: solid;
+  border-radius: 10px;
+}
+
+.content_help {
+  width: 700px;
+  height: 750px;
+  margin-left: auto; 
+  margin-right: auto;
+  text-align: left;
+  border-style: solid;
+  border-radius: 10px;
+}
+
+.footer {
+  width: 87vw;
+  max-width: 700px;
+  height: 2.5rem;
+  display:flex;
+  align-items: center; 
+  justify-content: center;
+  flex-direction: column-reverse;
+  margin-left:auto;
+  margin-right:auto;
+  font-size: 14pt;
+  font-style: italic;
+  color: black;
+}
+
+.english {
+  font-size: 100px;
+  display: inline-block;
+  width: 87vw;
+  max-width: 700px;
+  height: 120px;
+}
+
+.accuracy {
+  display: inline-block;
+  width: 87vw;
+  max-width: 700px;
+  height: 20px;
+}
+
+.score {
+  font-size: 40px;
+}
+
+.buffer { 
+  margin: 15px;
+}
+
+/* BUTTON STYLES */
+
+.button {
+  background-color: #FFFFFF;
+  border: 1px solid #222222;
+  border-radius: 8px;
+  box-sizing: border-box;
+  color: #222222;
+  cursor: pointer;
+  display: inline-block;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 20px;
+  margin: 0;
+  outline: none;
+  padding: 13px 23px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  touch-action: manipulation;
+  transition: box-shadow .2s,-ms-transform .1s,-webkit-transform .1s,transform .1s;
+  user-select: none;
+  -webkit-user-select: none;
+  width: auto;
+}
+.button_help {
+  background-color: #FFFFFF;
+  border: 1px solid #222222;
+  border-radius: 8px;
+  box-sizing: border-box;
+  color: #222222;
+  cursor: pointer;
+  display: inline-block;
+  font-family: 'Roboto', sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 12px;
+  margin: 0;
+  outline: none;
+  padding: 13px 23px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  touch-action: manipulation;
+  transition: box-shadow .2s,-ms-transform .1s,-webkit-transform .1s,transform .1s;
+  user-select: none;
+  -webkit-user-select: none;
+  width: auto;
+}
+
+/* RADIO */
+
+/* Hide the radio buttons */
+input[type="radio"] {
+  display: none;
+}
+
+  /* Style the labels as buttons */
+label.article-label {
+  background-color: #FFFFFF;
+  border: 1px solid #222222;
+  border-radius: 8px;
+  box-sizing: border-box;
+  color: #222222;
+  cursor: pointer;
+  display: inline-block;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 20px;
+  margin: 0;
+  outline: none;
+  padding: 13px 23px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  touch-action: manipulation;
+  transition: box-shadow .2s,-ms-transform .1s,-webkit-transform .1s,transform .1s;
+  user-select: none;
+  -webkit-user-select: none;
+  width: auto;
+  }
+
+    /* Define different colors for each label */
+  #Der:checked + label[for="Der"] {
+    background-color: rgba(77, 175, 255, 0.35); /* Blue for Der */
+    color: #fff;
+  }
+
+  #Die:checked + label[for="Die"] {
+    background-color: rgba(255, 76, 168, 0.35); /* Green for Die */
+    color: #fff;
+  }
+
+  #Das:checked + label[for="Das"] {
+    background-color: rgba(255, 166, 77, 0.7); /* Red for Das */
+    color: #fff;
+  }
+
+/* FOOTER */
+
+.footer {
+  width: 95vw;
+  height: 50px;
+}
+
+/* TABLE */
+
+.table {
+  margin: 0 auto;
+  display: inline-block;
+  table-layout: fixed
+}
+
+.table_picture {
+  width:90px;
+  height:90px;
+}
+
+.table_number{
+  width: 20px;
+}
+
+.table_article{
+  width: 50px;
+}
+
+.table_noun{
+  width: 70px;
+}
+
+/* SOCIAL ICONS */
+
+.social-icon {
+  color: black;
+}

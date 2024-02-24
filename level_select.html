@@ -1,0 +1,64 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0 maximum-scale=1.0, user-scalable=0">
+        <title>Learn German Nouns With Colour</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="style_mobile.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    </head>
+
+    <body>
+        <div class = 'content'>
+            <script src = "script.js"></script>
+            <h1>Select Difficulty Level:</h1>
+
+            <div>
+                <button class = 'button' onClick="choose_level(1)">Level 1</button>
+                <button class = 'button' onClick="choose_level(2)">Level 2</button>
+                <button class = 'button' onClick="choose_level(3)">Level 3</button><br><br>
+                <button class = 'button' onClick="choose_level(4)">Level 4</button>
+                <button class = 'button'> <s> Level 5 </s></button>
+                <button class = 'button'> <s> Level 6 </s></button><br><br>
+                <button class = 'button'> <s> Level 7 </s></button>
+                <button class = 'button'> <s> Level 8 </s></button>
+                <button class = 'button'> <s> Level 9 </s></button><br><br>
+                <button class = 'button'> <s> Level 10 </s></button>
+                <button class = 'button'> <s> Level 11 </s></button>
+                <button class = 'button'> <s> Level 12 </s></button><br><br>
+                <button class = 'button'> <s> Level 13 </s></button>
+                <button class = 'button'> <s> Level 14 </s></button>
+                <button class = 'button'> <s> Level 15 </s></button><br><br>
+                <button class = 'button'> <s> Level 16 </s></button>
+                <button class = 'button'> <s> Level 17 </s></button>
+                <button class = 'button'> <s> Level 18 </s></button><br><br>
+                <button class = 'button'> <s> Level 19 </s></button>
+                <button class = 'button'> <s> Level 20 </s></button>
+                <button class = 'button'> <s> Level 21 </s></button><br><br>
+                <button class = 'button'> <s> Level 22 </s></button>
+                <button class = 'button'> <s> Level 23 </s></button>
+                <button class = 'button'> <s> Level 24 </s></button><br><br>
+                <button class = 'button'> <s> Level 25 </s></button>
+                <button class = 'button'> <s> Level 26 </s></button>
+                <button class = 'button'> <s> Level 27 </s></button>
+                <button class = 'button'> <s> Level 28 </s></button>
+            </div>
+
+            <script> 
+                function choose_level(level){
+                localStorage.setItem("level",level);
+                window.location.href = 'game.html'
+            }</script>
+
+<div class="footer">
+    <div>
+        <a href="https://github.com/tweaver90s/Learn_German_Nouns" target="_blank" class="social-icon"><i class="fa-brands fa-github"></i></a>
+        <a href="https://ko-fi.com/nounsandcolour" target="_blank" class="social-icon"><i class="fa-solid fa-circle-dollar-to-slot"></i></a>
+        <a href="mailto:nounsandcolour@gmail.com?" target="_black" class="social-icon"><i class="fa-regular fa-envelope"></i></a>
+    </div>
+</div>
+        </div>
+
+    </body>
+
+</html>

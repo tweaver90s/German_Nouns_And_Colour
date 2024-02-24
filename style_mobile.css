@@ -1,0 +1,48 @@
+@media screen and (max-width: 500px) {
+
+    .content {
+        width: 95vw;
+        height: 90vh;
+        overflow: auto; 
+        margin-left: auto; 
+        margin-right: auto; 
+        text-align: center;
+        border-style: solid;
+        border-radius: 10px;
+    }
+
+    .content_help {
+        width: 95vw;
+        min-height: 90vh;
+        margin-left: auto; 
+        margin-right: auto;
+        text-align: left;
+        border-style: solid;
+        border-radius: 10px;
+      }
+
+    .english {
+        font-size: 65px;
+        display: inline-block;
+        width: 87vw;
+        max-width: 700px;
+        height: 120px;
+      }
+
+    .table {
+        margin: 0 auto;
+      }
+
+    .footer {
+        width: 95vw;
+        height: 50px;
+    
+    }
+
+    .live_results_mobile {
+        max-width: 300px;
+        margin-left: auto; 
+        margin-right: auto; 
+        text-align: center;
+    }
+  }

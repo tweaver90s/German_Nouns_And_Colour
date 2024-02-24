@@ -1,0 +1,77 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0 maximum-scale=1.0, user-scalable=0">
+        <title>Level Select</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="style_mobile.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    </head>
+
+    <body>
+        <script src = "Assets/Data/word_list.js"></script>
+        <script src = "script.js"></script>
+
+        <div class="content" id = "body_square">
+
+            <div class = "live_results_mobile"><br>
+                <img src="Assets/Images/unsure.png" style="width:50px;height:50px;" id = "result 1">
+                <img src="Assets/Images/unsure.png" style="width:50px;height:50px;" id = "result 2">
+                <img src="Assets/Images/unsure.png" style="width:50px;height:50px;" id = "result 3">
+                <img src="Assets/Images/unsure.png" style="width:50px;height:50px;" id = "result 4">
+                <img src="Assets/Images/unsure.png" style="width:50px;height:50px;" id = "result 5">
+                <img src="Assets/Images/unsure.png" style="width:50px;height:50px;" id = "result 6">
+                <img src="Assets/Images/unsure.png" style="width:50px;height:50px;" id = "result 7">
+                <img src="Assets/Images/unsure.png" style="width:50px;height:50px;" id = "result 8">
+                <img src="Assets/Images/unsure.png" style="width:50px;height:50px;" id = "result 9">
+                <img src="Assets/Images/unsure.png" style="width:50px;height:50px;" id = "result 10">
+            </div>
+
+            <div>
+                <span id="english" class="english"> </span><br>
+                <img src="Assets/Images/unsure.png" style="width:350px;height:350px;" id = "test_image"></div>
+            <div>
+                <br>
+                <span id="accuracy" class = "accuracy"> </span>
+            </div>
+
+            <div>
+                <input type="radio" id="Der" name="article" value="Der">
+                <label class="article-label" for="Der">Der</label>
+
+                <input type="radio" id="Die" name="article" value="Die">
+                <label class="article-label" for="Die">Die</label>
+
+                <input type="radio" id="Das" name="article" value="Das">
+                <label class="article-label" for="Das">Das</label>
+            </div><br>
+
+            
+            <input placeholder = "Enter Answer Here..." type="text" id="word_guess" name="word_guess"/>
+            
+            <button name = "submit_button" id = "submit_button" class="button">Start!</button>
+            <script>
+                    var submit_button = document.getElementById('submit_button');
+                    submit_button_click = submit_button.addEventListener('click', progress_game);
+
+                    var submit_button = document.getElementById('word_guess');
+                    submit_button.addEventListener("keypress", function(event) {
+                        if (event.key === "Enter") {
+                            event.preventDefault();
+                            document.getElementById("submit_button").click();
+                        }
+                        });
+            </script>
+
+            <div class="footer">
+                <div>
+                    <a href="https://github.com/tweaver90s/Learn_German_Nouns" target="_blank" class="social-icon"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://ko-fi.com/nounsandcolour" target="_blank" class="social-icon"><i class="fa-solid fa-circle-dollar-to-slot"></i></a>
+                    <a href="mailto:nounsandcolour@gmail.com?" target="_black" class="social-icon"><i class="fa-regular fa-envelope"></i></a>
+                </div>
+            </div>
+
+        </div>
+    </body>
+
+</html>
